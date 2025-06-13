@@ -22,6 +22,7 @@ training_dataset: BM_N_BM_new.shp (location of deposit and non-deposit)
 
 output: prediction_map_rf_89.tiff
 
+
 ----SVM
 
 input_file: cu_input.tiff
@@ -29,6 +30,7 @@ input_file: cu_input.tiff
 code_file: svm_for_bm_prediction.ipynb
 
 training_dataset: BM_N_BM_new.shp (location of deposit and non-deposit)
+
 
 ----FIS
 
@@ -62,6 +64,7 @@ output: probability_map.tiff
 
 -Gold_prediction
 
+
 ----CNN
 
 input_file: au_input.tiff
@@ -71,6 +74,7 @@ code_file: cnn_for_gold_prediction.ipynb
 training_dataset: Gold_N_Gold.shp (location of deposit and non-deposit)
 
 output: prediction_map_87.tif
+
 
 ----RF
 
@@ -82,6 +86,7 @@ training_dataset: Gold_N_Gold.shp (location of deposit and non-deposit)
 
 output: prediction_map_rf.tiff
 
+
 ----SVM
 
 input_file: au_input.tiff
@@ -89,6 +94,7 @@ input_file: au_input.tiff
 code_file: svm.ipynb
 
 training_dataset: Gold_N_Gold.shp (location of deposit and non-deposit)
+
 
 ----FIS
 
@@ -122,6 +128,7 @@ output: probability_map.tiff
 
 -Ree_prediction
 
+
 ----CNN
 
 input_file: ree_input.tiff
@@ -131,6 +138,7 @@ code_file: cnn_for_ree_prediction.ipynb
 training_dataset: REE_points.shp (location of deposit and non-deposit)
 
 output: prediction_map_76.tif
+
 
 ----RF
 
@@ -142,6 +150,7 @@ training_dataset: REE_points.shp(location of deposit and non-deposit)
 
 output: prediction_map_rf_92.tiff
 
+
 ----SVM
 
 input_file: ree_input.tiff
@@ -149,6 +158,7 @@ input_file: ree_input.tiff
 code_file: svm_for_ree_prediction.ipynb
 
 training_dataset: REE_points.shp (location of deposit and non-deposit)
+
 
 ----FIS
 
