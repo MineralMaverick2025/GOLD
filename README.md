@@ -1,11 +1,13 @@
 **codefile structure **
 
 -Base_metal_prediction 
+
 ----CNN
 input_file: cu_input.tiff
 code_file: cnn_for_base_metal_prediction.ipynb
 training_dataset: BM_N_BM_new.shp (location of deposit and non-deposit)
 output:prediction_map_67.tif
+
 ----RF
 input_file: cu_input.tiff
 code_file: rf_for_bm_prediction.ipynb
